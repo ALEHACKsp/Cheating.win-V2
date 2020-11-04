@@ -112,6 +112,9 @@ int main()
 		goto A;
 		break;
 	}
+	
+	//forgot to close handle lmfao
+	CloseHandle(drv_handle);
 
 	std::cout << E("\n\nDone! Exiting in 5 seconds!") << std::endl;
 	Sleep(5000);
