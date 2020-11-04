@@ -8,6 +8,7 @@
 #pragma comment(lib, "version.lib")
 
 //ioctl codes for the driver
+//https://media.discordapp.net/attachments/772876827562606593/773471546282082314/unknown.png
 #define init CTL_CODE(FILE_DEVICE_UNKNOWN, 0x69, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
 #define nullspoof CTL_CODE(FILE_DEVICE_UNKNOWN, 0x213, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
 #define randomserialspoofreq CTL_CODE(FILE_DEVICE_UNKNOWN, 0x428, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
